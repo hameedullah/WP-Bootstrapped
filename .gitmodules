@@ -1,3 +1,6 @@
 [submodule "bootstrap"]
 	path = bootstrap
 	url = git://github.com/twitter/bootstrap.git
+[submodule "Smart-Theme-Template"]
+	path = Smart-Theme-Template
+	url = git://github.com/hameedullah/Smart-Theme-Template.git
