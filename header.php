@@ -1,6 +1,6 @@
 <?php
 /**
- * Smart Bootstrapped Theme 
+ * Bootstrapped
  */
 ?><!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->

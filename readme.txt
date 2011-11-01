@@ -1,4 +1,4 @@
-Smart Bootstrapped Theme
+Bootstrapped
 Wordpress being smartly bootstrapped.
 
 A simple WordPress theme that is developed usin Smart Theme Template and Bootstrap from Twitter.
