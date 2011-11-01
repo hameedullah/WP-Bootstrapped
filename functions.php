@@ -1,11 +1,14 @@
 <?php
 /**
- * Wordpress Bootstrapped functions files
+ * Bootstrapped functions files
  *
  * Author:  Hameedullah Khan <h@hameedullah.com>
  * Twitter: @hameedullah
  * Web:     http://hameedullah.com
  **/
+
+// load the main theme class
+require_once( dirname( __FILE__ ) . '/sbslib/class-bootstrapped.php' );
 
 
 if ( ! function_exists( 'stt_entry_meta' ) ) :
@@ -29,3 +32,7 @@ function stt_entry_meta() {
 	);
 }
 endif;
+
+
+// initialize theme
+new Bootstrapped;
