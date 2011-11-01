@@ -52,11 +52,9 @@
       <nav class="topbar">
 		  <div class="topbar-inner">
 			<div class="container">
-				<ul class="nav">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">Page 1</a></li>
-				<li><a href="#">Page 2</a></li>
-				</ul><!-- /.nav -->
+				<?php
+					wp_nav_menu( array( 'menu' => 'topbar-menu', 'container' => false, 'menu_class' => 'nav' ) );	
+				?>
 			</div><!-- /.container -->
           </div><!-- /.topbar-inner -->
       </nav><!-- /.topbar -->
