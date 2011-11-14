@@ -5,7 +5,7 @@
 
 get_header(); ?>
 
-	<div id="content" role="main">
+	<div id="content" role="main" class="span-two-thirds column">
 		
 		<?php while ( have_posts() ) : the_post(); ?>
 
@@ -23,4 +23,5 @@ get_header(); ?>
 
 	</div><!-- #content -->
 
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
