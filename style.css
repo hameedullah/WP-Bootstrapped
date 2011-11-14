@@ -399,6 +399,9 @@ body {
     font-weight: normal;
     line-height: 18px;
 }
+#main {
+    padding-top: 20px;
+}
 
 
 /* =Content
@@ -474,7 +477,7 @@ body {
 /* =Featured
 ----------------------------------------------- */
 .hero-unit {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 
